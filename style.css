@@ -1,0 +1,155 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+padding-left: 5%;
+}
+#header{
+    display: flex;
+    margin-bottom: 10%;
+}
+.header-area{
+    display: flex;
+}
+.header-part{
+    width: 50px;
+    padding left: 1% ;
+    margin: 5%;
+}
+.text-color{
+    color: blue;
+}
+.link-color{
+    padding: 10px 40px ;
+    text-decoration:none;
+    background-image: linear-gradient(yellow, red);
+    border-radius: 40px;
+
+}
+h1{
+    font-size: 32px;
+    
+}
+p{
+    padding-bottom: 5%;
+}
+.header-part img{
+    width: 300px;
+}
+#about{
+    display: flex;
+    background-image: url(Shape/top\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 99%;
+     font-size: 20px ;
+     background-position: left;
+} 
+.about-part{
+    width: 50%;
+    padding: 2%;
+}
+
+h2{
+    font-size: 45px;
+
+}
+p{
+    padding-bottom: 5%;
+}
+
+ .about-part img{
+    width: 50%;
+    margin:50px 0 0 140px ;padding-left:2% ;
+}
+.recipie-part{
+    text-align: center;
+    padding: 45px;
+}
+.recipie-part h1{
+    font-size: 30px;
+    color: rgb(224, 28, 175);
+}
+.recipie-part p{
+    padding: 0 150px 0 150px;
+    font-size: 18px;
+}
+
+.recipie-item{
+    display: flex;
+    padding:0 80px;
+}
+.recipie1{
+    width: 150%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 4px 5px 23px rgb(216, 79, 79);
+    border-radius: 25px;
+}
+.recipie1 img{
+    width: 100%;
+}
+.recipie1 h1{
+    font-weight: 600;
+}
+
+.recipie2{
+    width: 150%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 4px 5px 23px rgb(139, 139, 123);
+    border-radius: 25px;
+}
+.recipie2 img{
+    width: 100%;
+}
+.recipie2 h1{
+    font-weight: 600;
+}
+
+.recipie3{
+    width: 150%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 4px 5px 23px rgb(164, 223, 241);
+    border-radius: 25px;
+}
+.recipie3 img{
+    width: 100%;
+}
+.recipie3 h1{
+    font-weight: 600;
+}
+
+.social{
+    display: flex;
+    border-radius: 25px;
+    box-shadow: rgb(205 202 200) 2px 4px 29px;
+    padding: 0 40px;
+    text-align: center;
+    margin: 80px 80px;
+}
+.social div{
+    width: 150%;
+    padding:15px 0 15px 0;
+    margin: 30px;
+}
+.social h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 0 30px 0;
+
+}
+footer h1{
+    color: rgb(163, 148, 148);
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+footer p{
+    color: rgb(196, 193, 193);
+}
