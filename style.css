@@ -7,71 +7,88 @@ padding-left: 5%;
 #header{
     display: flex;
     margin-bottom: 10%;
-}
+} 
 .header-area{
     display: flex;
-}
-.header-part{
-    width: 50px;
-    padding left: 1% ;
-    margin: 5%;
-}
-.text-color{
-    color: blue;
-}
-.link-color{
-    padding: 10px 40px ;
-    text-decoration:none;
-    background-image: linear-gradient(yellow, red);
-    border-radius: 40px;
+    
 
 }
-h1{
-    font-size: 32px;
-    
+.header-part1{
+    width: 50%;
+    padding-left:5% ;
+    margin: 10%0 0 7%;
 }
-p{
-    padding-bottom: 5%;
+.header-part1 h1{
+   font-size:  50px;
+  color: rgb(3, 1, 10);
 }
+.header-part1 p{
+    font-size:  20px;
+    margin-bottom: 30px;
+ }
+ .header-part{
+    width: 50%;
+    padding-left:5% ;
+
+}
+.text-color{
+    color: rgb(231, 33, 33);
+}
+.link-color{
+    padding: 10px 40px;
+    text-decoration:none ;
+    background-image: linear-gradient(yellow, red);
+    border-radius: 25px;
+    color: white;
+    font-size: normal;
+}
+
 .header-part img{
-    width: 300px;
-}
+    width: 60%;
+} 
+
 #about{
     display: flex;
     background-image: url(Shape/top\ banner.jpg);
     background-repeat: no-repeat;
     background-size:100% 99%;
-     font-size: 20px ;
-     background-position: left;
 } 
-.about-part{
+
+.about-part1{
     width: 50%;
-    padding: 2%;
+    padding: 8% 5% 5% 5%;
+}
+.about-part1 h2{
+   font-size:  90px;
+   color: rgb(123, 129, 214);
+}
+.About-part1 p{
+    font-size: 30px;
+    margin-bottom: 70px;
+    position: center;
+ }
+ .About-part{
+    width: 70%;
+    padding-right:9% ;
+
 }
 
-h2{
-    font-size: 40px;
-
-}
-p{
-    padding-bottom:2%;
+.about-part img{
+    width: 53%;
+    margin:130px 0 0 187px ;
 }
 
- .about-part img{
-    width: 50%;
-    margin:50px 0 0 140px ;padding-left:2% ;
-}
 .recipie-part{
     text-align: center;
     padding: 45px;
 }
 .recipie-part h1{
-    font-size: 30px;
-    color: rgb(224, 28, 175);
+    font-size: 40px;
+    color: rgb(226, 6, 109);
 }
 .recipie-part p{
     padding: 0 150px 0 150px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .recipie-item{
@@ -82,7 +99,7 @@ p{
     width: 150%;
     padding: 20px;
     margin: 20px;
-    box-shadow: 4px 5px 23px rgb(216, 79, 79);
+    box-shadow: 4px 5px 23px rgb(136, 243, 168);
     border-radius: 25px;
 }
 .recipie1 img{
@@ -110,7 +127,7 @@ p{
     width: 150%;
     padding: 20px;
     margin: 20px;
-    box-shadow: 4px 5px 23px rgb(164, 223, 241);
+    box-shadow: 4px 5px 23px rgb(229, 190, 153);
     border-radius: 25px;
 }
 .recipie3 img{
